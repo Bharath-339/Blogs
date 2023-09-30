@@ -1,0 +1,47 @@
+.main {
+  width: 100%;
+  height: 100vh;
+}
+
+.main .innerdiv {
+  max-width: 500px;
+  min-width: 250px;
+  height: 100px;
+  margin: 50px auto;
+  padding: 0 15px;
+
+}
+
+.main form div label {
+  font-size: 1.5rem;
+  display: block;
+  margin-bottom: 8px;
+}
+
+.main input {
+  width: 100%;
+  padding: 15px;
+  border-radius: 5px;
+  font-size: 20px;
+  margin-bottom: 20px;
+}
+
+.main input::placeholder {
+  font-size: 16px;
+}
+
+.buttonDiv{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+.buttonDiv button {
+  margin: 20px 0;
+  padding: 20px 60px;
+  font-size: 20px;
+  font-weight: 700;
+  border-radius: 30px;
+  background-color: #666;
+}
